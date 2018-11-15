@@ -1,0 +1,26 @@
+<!--Link a nice style library-->
+<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+
+<!--Here is a javascript library that we use-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    var URL = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
+
+    // Here is where the javascript code logic starts
+    $(document).ready(function () {
+        $("#showTextBtn").click(function () {
+            $.get(URL, function (data) {
+                $('#showText').html(data);
+            });
+        });
+
+    });
+</script>
+
+<div class="container">
+    <br /><br />
+    <button id="showTextBtn">Call the api</button>
+    <div id="showText"></div>
+
+</div
