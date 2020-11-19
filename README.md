@@ -8,6 +8,6 @@ Pre reqs:
 5) Run `aws configure` from the command line and add your admin user
 
 How to use
-6) Download this project
-7) Right click on the "Run this.ps1" file and run with powershell
-8) Delete when done (the powershell app will prompt you)
+1) Download this project
+2) Right click on the "Run this.ps1" file and run with powershell
+3) Delete when done (the powershell app will prompt you)
